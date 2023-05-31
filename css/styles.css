@@ -299,3 +299,13 @@ body {
 .sleep-card p {
     margin: 0;
 }
+
+.reminders-card,
+.reports-card,
+.goals-card {
+    padding: 32px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: var(--element-background);
+    box-sizing: border-box;
+}
