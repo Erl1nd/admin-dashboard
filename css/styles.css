@@ -364,3 +364,38 @@ body {
     font-weight: 700;
     font-size: 20px;
 }
+
+.reports {
+    display: flex;
+    gap: 32px;
+}
+
+.reports img {
+    scale: 2;
+}
+
+.reports .p-1 {
+    color: #3FBDF1;
+}
+
+.reports .p-2 {
+    color: #71DDB1;
+}
+
+/* GOALS CARD */
+.goals-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goals-card img {
+    width: 200px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.goals-card p {
+    text-align: center;
+}
